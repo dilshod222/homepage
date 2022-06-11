@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb4e4cf9-6dfe-40d1-b030-22e5b991ca37" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="2A55vRtfcfghyPL11kLB3roXTMZ" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\upraktika\homepage\images" />
+      <recent name="D:\upraktika\homepage\css" />
+      <recent name="D:\upraktika\homepage\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb4e4cf9-6dfe-40d1-b030-22e5b991ca37" name="Default Changelist" comment="" />
+      <created>1654286835927</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654286835927</updated>
+      <workItem from="1654286837070" duration="3735000" />
+      <workItem from="1654334226608" duration="13000" />
+      <workItem from="1654413933802" duration="12643000" />
+      <workItem from="1654459036213" duration="1414000" />
+      <workItem from="1654460485683" duration="253000" />
+      <workItem from="1654514646796" duration="1112000" />
+      <workItem from="1654713088045" duration="4472000" />
+      <workItem from="1654794379226" duration="9476000" />
+      <workItem from="1654863635335" duration="1759000" />
+      <workItem from="1654882109213" duration="8464000" />
+      <workItem from="1654919965058" duration="6084000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
