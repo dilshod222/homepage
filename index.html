@@ -8,6 +8,9 @@
     <title>Title</title>
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <style>
 
     </style>
@@ -25,16 +28,16 @@
         </button>
         <div class="collapse justify-content-end navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  mb-2 mb-lg-0">
-                <li class="nav-item ms-5">
+                <li class="nav-item ms-sm-0">
                     <a class="nav-link fw-semibold text-primary" href="#functional">ФУНКЦИОНАЛ И ЦЕНЫ</a>
                 </li>
-                <li class="nav-item mx-5">
+                <li class="nav-item mx-lg-5 ms-sm-0">
                     <a class="nav-link fw-semibold text-primary" href="#">ПОМОЩЬ</a>
                 </li>
-                <li class="nav-item fw-bold ms-5">
+                <li class="nav-item fw-bold mx-lg-3 ms-sm-0">
                     <a class="nav-link" href="#">O'zb</a>
                 </li>
-                <li class="nav-item ms-5">
+                <li class="nav-item" style="transform: translateX(0px)">
                     <a class="nav-link text-danger fw-bold" href="#">Рус</a>
                 </li>
 
@@ -47,24 +50,23 @@
 
 <main>
 
-    <h4 class=" text-center mt-5 text-primary">
+    <h4 class=" text-center mt-5 text-primary px-2">
         Банк тестов по школьным предметам для учетелей и учеников
     </h4>
 
     <section id="sign-in">
         <div class="container">
-            <div class="row mt-5 h-100 justify-content-center"  >
-                <div class="col-xl-6 col-lg-8 col-md-10 col-sm-10" style="padding: 0; position: relative; height: 450px">
-                    <img src="images/landingpage.jpg" alt=""  style="position: absolute; top: 0;left: 0">
-                    <div class="card" style="width: 300px">
-                        <div class="card-body p-4" >
+            <div class="row mt-5 h-100 justify-content-center">
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10">
+                    <div class="card">
+                        <div class="card-body p-4">
                             <form>
                                 <h5 class="mb-3">Войти</h5>
                                 <input type="text" class="form-control shadow-none border-primary py-2"
                                        style="border-radius: 0" placeholder="ID или номер телефона">
                                 <p class="m-0 text-secondary" style="font-size: 13px">Пример ID: хххххх</p>
-                                <p class="mt-0 text-secondary mb-4" style="font-size: 13px">Пример номер телефона:+998
-                                    xx xxx хх хх</p>
+                                <p class="mt-0 text-secondary mb-4" style="font-size: 13px">Пример номер телефона:
+                                    +998xxxxxхххх</p>
                                 <input type="text" class="form-control shadow-none border-primary p-2 mb-2"
                                        style="border-radius: 0" placeholder="Пароль">
                                 <a href="#" class="text-decoration-none" style="font-size: 14px">Забыли пароль?</a>
@@ -81,12 +83,46 @@
                 </div>
 
 
-                <div class="col-xl-4 col-lg-4 col-md-10 col-sm-10">
-                    <p>✅ Просматривайте тесты по классам и темам</p>
-                    <p>✅ Работайте над ошибками и следите за свом прогрессом</p>
-                    <p>✅ Все тесты с подробным пояснением правильного ответа</p>
-                    <p>✅ Сохранение истории работы над тестами</p>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-10 d-flex flex-column justify-content-center">
 
+                    <div class="d-flex">
+                        <div>
+                            <img src="images/check.png" width="20" alt="">
+                        </div>
+                        <div class="ms-1">
+                            <p>Просматривайте тесты по классам и
+                                темам</p>
+                        </div>
+                    </div>
+
+
+                    <div class="d-flex">
+                        <div>
+                            <img src="images/check.png" width="20" alt="">
+                        </div>
+                        <div class="ms-1">
+                            <p>Работайте над ошибками и следите
+                                за свом прогрессом</p>
+                        </div>
+                    </div>
+                    <div class="d-flex">
+                        <div>
+                            <img src="images/check.png" width="20" alt="">
+                        </div>
+                        <div class="ms-1">
+                            <p>Все тесты с подробным пояснением
+                                правильного ответа</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex">
+                        <div>
+                            <img src="images/check.png" width="20" alt="">
+                        </div>
+                        <div class="ms-1">
+                            <p>Сохранение истории работы над тестами</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -97,240 +133,280 @@
         <div class="container-fluid text-center mt-5 p-2 fw-semibold text-white fs-5" style="background-color: #B4C6E7">
             Регистрация
         </div>
-        <div class="container">
+        <div class="container mt-5">
             <div class="row justify-content-center">
-                <div class="col-xl-3 col-md-4 col-sm-6">
-                    <h4 class="text-center">Ученик</h4>
-                    <div class="card border-0">
-                        <img src="images/student-removebg.png" alt=" " style="background-color:#a0ffb1" class="card-img-top">
-                        <a href="register.html" class="btn btn-primary mt-3"> Регистрация</a>
-                    </div>
-                </div>
-                <div class="col-xl-3 offset-xl-1 col-md-4 mt-sm-0  col-sm-6 mt">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
                     <h4 class="text-center">Учитель</h4>
                     <div class="card border-0">
-                        <img src="images/teacher-removebg.png" alt=" " style="background-color:#beffdc" class="card-img-top">
-                        <a href="register.html" class="btn w-100 btn-primary mt-3"> Регистрация</a>
+                        <div class="card-header bg-white border-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/check.png" width="20" alt="">
+                                </div>
+                                <div class="ms-1">
+                                    <p >Для учителей и репетиторов</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/check.png" width="20" alt="">
+                                </div>
+                                <div class="ms-1">
+                                    <p>Добавляйте учеников, отправляйте им онлайн тесты и следите за их прогрессом</p>
+                                </div>
+                            </div>
+                        </div>
+
+                           <div class="card-body">
+                               <img src="images/teacher.jpg" alt=" " class="card-img">
+                               <a href="register_teacher.html" class="btn w-100 btn-primary mt-3"> Регистрация</a>
+                               <hr>
+                           </div>
                     </div>
                 </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-10">
+                    <h4 class="text-center">Ученик</h4>
+                    <div class="card border-0">
+                        <div class="card-header bg-white border-0">
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/check.png" width="20" alt="">
+                                </div>
+                                <div class="ms-1">
+                                    <p>Для самостоятельных учеников и абитуриентов</p>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div>
+                                    <img src="images/check.png" width="20" alt="">
+                                </div>
+                                <div class="ms-1">
+                                    <p>Решай тесты по любым предметам и изучай готовые пояснения</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <img src="images/landingpage.jpg" alt=" " style="" class="card-img">
+                            <a href="register_student.html" class="btn w-100 btn-primary mt-3"> Регистрация</a>
+                            <hr>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+<!--                <div class="col-xl-3  col-md-4 col-sm-6">-->
+<!--                    <h4 class="text-center">Учитель</h4>-->
+<!--                    <div class="card border-0 h-auto">-->
+<!--                        <div class="card-header" style="max-height: 200px">-->
+<!--                            <div class="d-flex">-->
+<!--                                <div>-->
+<!--                                    <img src="images/check.png" width="20" alt="">-->
+<!--                                </div>-->
+<!--                                <div class="ms-1">-->
+<!--                                    <p>Для учителей и репетиторов</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="d-flex">-->
+<!--                                <div>-->
+<!--                                    <img src="images/check.png" width="20" alt="">-->
+<!--                                </div>-->
+<!--                                <div class="ms-1">-->
+<!--                                    <p>Добавляйте учеников, отправляйте им онлайн тесты и следите за их прогрессом</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="images/teacher.jpg" alt=" " style="background-color:#beffdc" class="card-img-top">-->
+<!--                        <a href="register_teacher.html" class="btn w-100 btn-primary mt-3"> Регистрация</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-xl-3  offset-xl-1 col-md-4 mt-sm-0  col-sm-6">-->
+<!--                    <h4 class="text-center">Ученик</h4>-->
+<!--                    <div class="card border-0">-->
+<!--                        <div class="card-header" style="max-height: 200px">-->
+<!--                            <div class="d-flex">-->
+<!--                                <div>-->
+<!--                                    <img src="images/check.png" width="20" alt="">-->
+<!--                                </div>-->
+<!--                                <div class="ms-1">-->
+<!--                                    <p>Для самостоятельных учеников и абитуриентов</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                            <div class="d-flex">-->
+<!--                                <div>-->
+<!--                                    <img src="images/check.png" width="20" alt="">-->
+<!--                                </div>-->
+<!--                                <div class="ms-1">-->
+<!--                                    <p>Решай тесты по любым предметам и изучай готовые пояснения</p>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <img src="images/landingpage.jpg" alt=" " style="background-color:#a0ffb1" class="card-img-top">-->
+<!--                        <a href="register_student.html" class="btn btn-primary mt-3"> Регистрация</a>-->
+<!--                    </div>-->
+<!--                </div>-->
+
             </div>
         </div>
     </section>
-
     <section id="functional" class="">
         <div class="container-fluid text-center mt-5 p-2 fw-semibold text-white fs-5" style="background-color: #B4C6E7">
             Функционал и цены
         </div>
 
         <div class="container mt-3">
-            <div class="row col-10 offset-1">
-                <table class="table mb-5 table-hover text-center">
-                    <colgroup>
-                        <col>
-                        <col class="outlined">
-                        <col class="outlined" span="4">
-                        <col>
-                        <col>
-                        <col>
-                    </colgroup>
-                   <thead>
-                   <tr>
-                       <th></th>
-                       <th>Бесплатно</th>
-                       <th>45 000 сум
-                           в месяц </th>
-                       <th>Бесплатно</th>
-                       <th>180 000 сум
-                           в месяц</th>
-                       <th>По договору</th>
-                   </tr>
-                   </thead>
-                   <tbody>
-                   <tr>
-                       <td class="text-primary fw-bolder">Функционал</td>
-                       <td class="fw-bold">Ученик</td>
-                       <td class="fw-bold">Ученик Pro</td>
-                       <td class="fw-bold">Учитель</td>
-                       <td class="fw-bold">Учитель Pro</td>
-                       <td class="fw-bold">Школа Pro</td>
-                   </tr>
-                   <tr>
-                       <td class="fw-bolder text-primary">Банк тестов</td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                   </tr>
+            <div class="row">
+                <div class="col-10 offset-1">
+                    <table class="table mb-5 table-hover text-center">
+                        <thead>
+                        <tr>
+                            <th></th>
+                            <th style="vertical-align: middle">Бесплатно</th>
+                            <th style="vertical-align: middle">45 000 сум <br>
+                                в месяц
+                            </th>
+                            <th style="vertical-align: middle">Бесплатно</th>
+                            <th style="vertical-align: middle">180 000 сум <br>
+                                в месяц
+                            </th>
+                            <th style="vertical-align: middle">По договору</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td class="bg-white"></td>
+                            <td class="fw-bold">Ученик</td>
+                            <td class="fw-bold">Ученик <span style="color: #d7529f">Pro</span></td>
+                            <td class="fw-bold">Учитель</td>
+                            <td class="fw-bold">Учитель <span style="color: #d7529f">Pro</span></td>
+                            <td class="fw-bold">Школа <span style="color: #d7529f">Pro</span></td>
+                        </tr>
 
-                   <tr>
-                       <td>5-6 классы <br/> <span class="text-danger">Какие предметы имеются?</span></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
+                        <tr>
+                            <td><span class="fw-bold text-primary">Банк тестов</span> <br> 5-6 классы</td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
 
-                   <tr>
-                       <td>7-11 классы<br/> <span class="text-danger">Какие предметы имеются?</span></td>
-                       <td></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
+                        <tr>
+                            <td><span class="fw-bold text-primary">Банк тестов</span> <br>7-11 классы</td>
+                            <td></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
 
-                   <tr>
-                       <td>Статистика</td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
+                        <tr>
+                            <td>Статистика</td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
 
 
-                   <tr>
-                       <td>Добавление
-                           учеников</td>
-                       <td></td>
-                       <td></td>
-                       <td>до 30 учеников</td>
-                       <td>до 30 учеников</td>
-                       <td>до 30 учеников</td>
-                   </tr>
+                        <tr>
+                            <td>Добавление
+                                учеников
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td>до 30 учеников</td>
+                            <td>до 30 учеников</td>
+                            <td>до 30 учеников</td>
+                        </tr>
 
-                   <tr>
-                       <td>Статистика ученика</td>
-                       <td></td>
-                       <td></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
-                   <tr>
-                       <td>Возможность
-                           отправлять
-                           варианты онлайн
-                           тестов ученику</td>
-                       <td></td>
-                       <td></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
+                        <tr>
+                            <td>Статистика ученика</td>
+                            <td></td>
+                            <td></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td>Возможность
+                                отправлять
+                                варианты онлайн
+                                тестов ученику
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
 
-                   <tr>
-                       <td>Возможность
-                           группировать
-                           учеников</td>
-                       <td></td>
-                       <td></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
+                        <tr>
+                            <td>Возможность
+                                группировать
+                                учеников
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
 
-                   <tr>
-                       <td>Возможность
-                           добовлять
-                           собственные тесты</td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
+                        <tr>
+                            <td>Возможность
+                                добовлять
+                                собственные тесты
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
 
-                   <tr>
-                       <td>Возможность
-                           добовлять собственные
-                           Учебные материалы</td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
+                        <tr>
+                            <td>Возможность
+                                добовлять собственные
+                                Учебные материалы
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
 
-                   <tr>
-                       <td>Добавление
-                           учителей</td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
+                        <tr>
+                            <td>Добавление
+                                учителей
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
 
-                   <tr>
-                       <td>Возможность отправлять
-                           вариант тестов в
-                           форме экзамена
-                           (таймер, дедлайн)</td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td></td>
-                       <td><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="blue" class="bi bi-check-all" viewBox="0 0 16 16">
-                           <path d="M8.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L2.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093L8.95 4.992a.252.252 0 0 1 .02-.022zm-.92 5.14.92.92a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 1 0-1.091-1.028L9.477 9.417l-.485-.486-.943 1.179z"/>
-                       </svg></td>
-                   </tr>
+                        <tr>
+                            <td>Возможность отправлять
+                                вариант тестов в
+                                форме экзамена
+                                (таймер, дедлайн)
+                            </td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td><img src="images/check.png" width="20" alt=""></td>
+                        </tr>
 
 
-                   </tbody>
-                </table>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 

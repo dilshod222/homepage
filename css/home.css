@@ -2,29 +2,28 @@
     font-family: "Calibri";
 }
 
-
-
-table {
-    border-collapse: collapse;
-}
-.outlined {
-    border: 3px solid blue;
+.linear{
+    width: 1px;
+    height: 100%;
+    background-color: red;
 }
 
-table thead tr th{
-    width: 15%;
+nav .container .navbar-brand{
+    font-size: 30px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: bold;
+    color: #1f4d79;
 }
-
-table tbody tr td{
-    border-bottom: 3px solid white;
-    border-top: 3px solid white;
-
-}
-
-
 
 table tbody {
     background-color: #D9E1F2;
+
+}
+
+table tbody tr td {
+    border: 3px solid white;
+    width: 200px;
+    vertical-align: middle;
 }
 
 
@@ -39,31 +38,52 @@ main section#functional .container {
     margin: 0 auto;
 }
 
-main section#sign-in .container .row .col-xl-6 img{
-    height: 400px;
-}
+
 
 /*madia*/
-@media (max-width: 1400px) and (min-width: 1200px) {
-    main section#sign-in .container .row .col-xl-4{
-        transform: translateX(50px);
+
+
+
+@media (max-width: 576px) {
+    main section#sign-up .container .row .col-xl-4:nth-child(2) {
+        margin-top:40px;
+    }
+    main section#sign-up .container .row .col-xl-2 {
+        width: 0;!important;
+    }
+
+    main section#sign-up .container .row .col-xl-4 .card{
+           width: 300px;!important;
+           margin: 0 auto;
+       }
+}
+
+@media (max-width:1400px )and (min-width:1200px ){
+    main section#sign-up .container .row .col-xl-4 .card .card-header{
+        height: 137px;!important;
     }
 }
 
 
-@media (max-width: 776px) {
-    main section#sign-in .container .row .col-xl-6 img{
-        display: none;
+@media (max-width: 992px) {
+    nav .container .collapse ul li {
+        margin-left: 0px;!important;
     }
+
+    main section#sign-up .container .row .col-xl-2 {
+        width: 0px;!important;
+    }
+
 }
 
-
-@media (min-width: 576px) {
-    main section#sign-up.container img{
-        width: 250px;
+@media (max-width: 767px) {
+    main section#sign-in .container .row .col-xl-3:nth-child(2){
+        margin-top: 3rem;
+    }
+    main section#sign-up .container .row .col-xl-2 {
+        width: 0;!important;
     }
 }
-
 
 
 
