@@ -20,8 +20,9 @@
   <component name="ProjectId" id="2A55vRtfcfghyPL11kLB3roXTMZ" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../homepagegit/homepage" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -71,6 +72,7 @@
       <workItem from="1655033591747" duration="273000" />
       <workItem from="1655033884278" duration="4028000" />
       <workItem from="1655042468589" duration="1218000" />
+      <workItem from="1655147259578" duration="278000" />
     </task>
     <servers />
   </component>
